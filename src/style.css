@@ -1,0 +1,30 @@
+body {
+  background-color: #9fd3c7;
+}
+
+h2 {
+  font-size: x-larger;
+  font-family: poppin;
+  opacity: 0.7;
+  color: #142d4c;
+}
+h3 {
+  font-size: xxx-large;
+}
+h4 {
+  display: block;
+  margin-left: 550px;
+  font-size: larger;
+  font-family: poppin;
+  opacity: 0.7;
+  color: #142d4c;
+}
+.sun-cloud {
+  color: #4e3983;
+}
+.sun-rain {
+  color: #4e3983;
+}
+.sun {
+  color: #4e3983;
+}
