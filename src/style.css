@@ -28,3 +28,9 @@ h4 {
 .sun {
   color: #4e3983;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
