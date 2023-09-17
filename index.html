@@ -24,67 +24,76 @@
   </head>
 
   <body>
-    <div class="container">
-      <br />
-      <h1>
-        <input type="text" id="cityInput" placeholder="Enter a city" />
-        <button type="button" class="btn btn-success" id="searchButton">
-          Search
-        </button>
-        <button type="button" class="btn btn-primary" id="currentButton">
-          Current
-        </button>
-      </h1>
-      <h2 id="cityDisplay">
-        Johannesburg
-        <br id="datetime" />
-        Saturday, 21:59
-        <br />
-        Partly cloudy
-      </h2>
-      <br />
-      <h3><i class="fa-solid fa-cloud-sun sun-cloud"></i> 23 °C</h3>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="container">
+          <br />
+          <h1>
+            <input type="text" id="cityInput" placeholder="Enter a city" />
+            <button type="button" class="btn btn-success" id="searchButton">
+              Search
+            </button>
+            <button type="button" class="btn btn-primary" id="currentButton">
+              Current
+            </button>
+          </h1>
+          <h2 id="cityDisplay">
+            Johannesburg
+            <br id="datetime" />
+            Saturday, 21:59
+            <br />
+            Partly cloudy
+          </h2>
+          <br />
+          <h3>
+            <i class="fa-solid fa-cloud-sun sun-cloud"></i> 23
+            <small>°C | °F</small>
+          </h3>
 
-      <h4>
-        Precipitation:0%
+          <h4>
+            Precipitation:0%
+            <br />
+            Humidity:30%
+            <br />
+            Wind:21km/h
+          </h4>
+          <br />
+          <div class="row">
+            <div class="col-sm">
+              SUN <br />
+              <i class="fa-solid fa-cloud-sun-rain sun-rain"></i
+              ><br />21°<br />2°
+            </div>
+            <div class="col-sm">
+              MON <br />
+              <i class="fa-regular fa-sun sun"></i><br />11°<br />-1°
+            </div>
+            <div class="col-sm">
+              TUE <br />
+              <i class="fa-regular fa-sun sun"></i><br />14°<br />-1°
+            </div>
+            <div class="col-sm">
+              WED <br />
+              <i class="fa-regular fa-sun sun"></i><br />17°<br />3°
+            </div>
+            <div class="col-sm">
+              THUR <br />
+              <i class="fa-solid fa-cloud-sun sun-cloud"></i><br />16°<br />3°
+            </div>
+          </div>
+        </div>
         <br />
-        Humidity:30%
-        <br />
-        Wind:21km/h
-      </h4>
-      <br />
-      <div class="row">
-        <div class="col-sm">
-          SUN <br />
-          <i class="fa-solid fa-cloud-sun-rain sun-rain"></i><br />21°<br />2°
-        </div>
-        <div class="col-sm">
-          MON <br />
-          <i class="fa-regular fa-sun sun"></i><br />11°<br />-1°
-        </div>
-        <div class="col-sm">
-          TUE <br />
-          <i class="fa-regular fa-sun sun"></i><br />14°<br />-1°
-        </div>
-        <div class="col-sm">
-          WED <br />
-          <i class="fa-regular fa-sun sun"></i><br />17°<br />3°
-        </div>
-        <div class="col-sm">
-          THUR <br />
-          <i class="fa-solid fa-cloud-sun sun-cloud"></i><br />16°<br />3°
-        </div>
+
+        <script src="src/index.js"></script>
       </div>
+      <p>
+        <a
+          href="https://github.com/siingiii/shecodes-weather-app-project"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Innocentia Baloyi
+      </p>
     </div>
-    <br />
-    <p>
-      <a
-        href="https://github.com/siingiii/shecodes-weather-app-project"
-        target="_blank"
-        >Open-source code</a
-      >
-      by Innocentia Baloyi
-    </p>
-    <script src="src/index.js"></script>
   </body>
 </html>
