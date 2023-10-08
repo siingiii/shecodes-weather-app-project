@@ -1,10 +1,13 @@
 body {
-  border-radius: 5px;
-  max-width: 700px;
-  margin: 30px auto;
 }
-.card-body {
+.container {
+}
+.card {
   background-color: #9fd3c7;
+  border: 1px solid black;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 15px;
 }
 h2 {
   font-size: 27px;
@@ -68,24 +71,32 @@ h2,
 .content a:hover {
   color: #656464;
 }
-.content p,
-a {
+h1 {
   color: #142d4c;
-  line-height: 0.7;
+  line-height: 0.5;
+}
+.content p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
   margin-top: 0;
 }
-.content.right {
-  display: flex;
+.content-right {
+  display: block;
   flex-direction: column;
   align-items: flex-end;
-  top: -40px;
+  text-align: right;
+  margin: 0;
+  font-size: 17px;
+  line-height: normal;
 }
-.content.right .humidity,
-.content.right .wind {
-  position: absolute;
-  display: inline-block;
-  right: 10px;
-  bottom: -10px;
+
+.tempweekly {
+  margin-top: 10px;
+  text-align: center;
+}
+.tempweekly-temp-min {
+  opacity: 0.5;
 }
 .tempweekly p {
   color: #7c7a7a;
@@ -104,13 +115,4 @@ a {
 .footer a:hover {
   color: #3e8adb;
   text-decoration: underline;
-}
-.sun-cloud {
-  color: #4e3983;
-}
-.sun-rain {
-  color: #4e3983;
-}
-.sun {
-  color: #4e3983;
 }
